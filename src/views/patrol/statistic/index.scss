@@ -1,0 +1,13 @@
+.app-container {
+  .content {
+    margin-top: 30px;
+    .left,
+    .right {
+      height: 30vh;
+      width: 100%;
+    }
+    .right {
+      margin-top: 20px;
+    }
+  }
+}

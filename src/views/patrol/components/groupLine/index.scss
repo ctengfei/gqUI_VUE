@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .box {
+    display: inline-block;
+    width: 2px;
+    height: 20px;
+    margin-bottom: -3px;
+    margin-right: 8px;
+    background-color: #3b7cff;
+  }
+  .title {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+.divide {
+  border-style: dashed;
+  border-color: #cbcbcb;
+}

@@ -1,0 +1,63 @@
+.app-container {
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .head-title {
+    position: relative;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: 600;
+
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 2px;
+      height: 10px;
+      background: #1791ff;
+    }
+  }
+  .content {
+    display: flex;
+    margin-top: 20px;
+    .left {
+      width: 50vw;
+      height: 70vh;
+      padding: 0 20px;
+      .tree-box {
+        overflow: auto;
+        height: 68vh;
+        padding-right: 10px;
+        .ml-20 {
+          margin-left: 20px;
+        }
+        .right-btn {
+          margin-left: 40px;
+        }
+      }
+    }
+    .right {
+      width: 50vw;
+      height: 70vh;
+      position: relative;
+      .map-box {
+        width: 50vw;
+        height: 100%;
+      }
+      h3 {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        z-index: 1000;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 8px;
+      }
+    }
+  }
+}

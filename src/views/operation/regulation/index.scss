@@ -1,0 +1,20 @@
+.app-container {
+  li {
+    list-style-type: none;
+  }
+  .search-box {
+    display: flex;
+    justify-content: center;
+    :deep(.el-input-group__append) {
+      cursor: pointer;
+    }
+  }
+  .filter-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    .rg {
+      margin: 10px 0;
+    }
+  }
+}

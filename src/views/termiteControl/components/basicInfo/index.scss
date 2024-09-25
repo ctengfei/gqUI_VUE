@@ -1,0 +1,10 @@
+.container {
+  .btnStyle {
+    background-color: var(--el-color-primary) !important;
+    color: #fff !important;
+    &:hover {
+      background-color: var(--el-color-primary) !important;
+      color: #fff !important;
+    }
+  }
+}

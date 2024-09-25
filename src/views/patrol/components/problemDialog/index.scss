@@ -1,0 +1,19 @@
+.content {
+  width: 100%;
+  padding: 0 20px;
+  .tree-box {
+    margin-top: 20px;
+    overflow: auto;
+    height: auto;
+    padding-right: 10px;
+    .ml-20 {
+      margin-left: 20px;
+    }
+    .right-btn {
+      margin-left: 40px;
+    }
+  }
+}
+.timeline-box {
+  margin-top: 20px;
+}

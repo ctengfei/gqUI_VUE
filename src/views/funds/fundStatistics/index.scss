@@ -1,0 +1,14 @@
+.app-container {
+  .content {
+    display: flex;
+    justify-content: space-between;
+    .left {
+      height: 400px;
+      width: 48%;
+    }
+    .right {
+      height: 400px;
+      width: 50%;
+    }
+  }
+}
